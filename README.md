@@ -15,7 +15,7 @@ This Python script provides a simple yet powerful tool for crawling hashtags on 
 2. Customize Parameters: Modify the start_hashtag and max_hashtags variables as needed for your search.
 3. Run the Script: Execute the script in your terminal:
 ```bash
-pip install selenium beautifulsoup4 networkx
+python hashtag_crawler.py
 ```
 4.Analyze the Results: The script outputs a .graphml file which can be imported into graph analysis software for further investigation. I personally used Gephi for the graph analysis.
 
