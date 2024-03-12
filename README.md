@@ -18,7 +18,8 @@ This Python script provides a simple yet powerful tool for crawling hashtags on 
 ```bash
 python hashtag_crawler.py
 ```
-4.Analyze the Results: The script outputs a .graphml file which can be imported into graph analysis software for further investigation. I personally used Gephi for the graph analysis.
+4. Analyze the Results: The script outputs a .graphml file which can be imported into graph analysis software for further investigation. I personally used Gephi for the graph analysis.
+
 
 ## Example
 Starting with the hashtag #Oslo, the script can crawl up to 20 connected hashtags, then it does the same starting from #Bergen. The results from both crawls are combined into a single graph for analysis.
